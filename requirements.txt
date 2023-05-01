@@ -1,0 +1,5 @@
+#List the required packages for the project.
+
+beautifulsoup4
+requests
+schedule
