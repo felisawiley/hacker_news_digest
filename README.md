@@ -1,6 +1,6 @@
 # hacker_news_digest
 
-This Python project sends an email digest containing a snapshot of the HN Hiring webpage for Python jobs every Friday morning at 8:00 am. The email provides an overview of the main content of the page, and when you click the link in the email, it takes you directly to the website.
+This Python project sends an email digest containing a snapshot of the HN Hiring webpage for Python jobs every Friday at 8:00 am. The email provides an overview of the page's primary content, and when you click the link in the email, it takes you directly to the website.
 
 **Dependencies**
 
@@ -8,6 +8,7 @@ The project depends on the following Python libraries:
 requests
 beautifulsoup4
 schedule
+
 
 **Installation**
 
@@ -20,6 +21,7 @@ pip install -r requirements.txt
 OR python3 install -r requirements.txt
 Update the config.py file with your Gmail address and password or app-specific password.
 
+
 **Usage**
 
 To start the email digest service, run the following command in your terminal or command prompt:
@@ -27,7 +29,8 @@ To start the email digest service, run the following command in your terminal or
 Copy code:
 python scheduler.py
 OR python3 scheduler.py
-The script will keep running and send the email digest every Friday at 8:00 am.
+The script will continue running and send the email digest every Friday at 8:00 am.
+
 
 **Project Structure**
 
