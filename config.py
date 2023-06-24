@@ -1,4 +1,4 @@
-#Store the email configuration and any other constants/settings.
+#use this module to store the email configuration and any other settings (sender, recipient, PW, url)
 
 sender = ""
 recipient = ""
