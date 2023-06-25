@@ -2,15 +2,15 @@
 
 This Python project sends an email digest containing a snapshot of the HN Hiring webpage for Python jobs every Friday at 8:00 am. The email provides an overview of the page's primary content, and when you click the link in the email, it takes you directly to the website.
 
-###**Dependencies**
+### Dependencies
 
 The project depends on the following Python libraries:
-- 1. requests
-- 2. beautifulsoup4
-- 3. schedule
+- requests
+- beautifulsoup4
+- schedule
 
 
-###**Installation**
+### Installation
 
 Clone the repository or download the project as a zip file and extract it to your desired location.
 
@@ -22,7 +22,7 @@ Copy code:
 Update the config.py file with your Gmail address and password or app-specific password.
 
 
-###**Usage**
+### Usage
 
 To start the email digest service, run the following command in your terminal or command prompt:
 
@@ -32,18 +32,18 @@ Copy code:
 The script will continue running and send the email digest every Friday at 8:00 am.
 
 
-###**Project Structure**
+### Project Structure 
 
 The project is organized into the following files and folders:
 
-- 1. config.py: Stores the email configurations and other constants/settings.
-- 2. scraper.py: Handles the web scraping tasks.
-- 3. emailer.py: Handles email-related tasks.
-- 4. scheduler.py: Schedules and runs the tasks.
-- 5. requirements.txt: List the required packages for the project.
+- config.py: Stores the email configurations and other constants/settings.
+- scraper.py: Handles the web scraping tasks.
+- emailer.py: Handles email-related tasks.
+- scheduler.py: Schedules and runs the tasks.
+- requirements.txt: List the required packages for the project.
 
 
-###**Security Notice**
+### Security Notice
 
 Storing your email credentials in plain text in a script is not secure. You should use a more secure method in a production environment, like environment variables or a secrets manager.
 
