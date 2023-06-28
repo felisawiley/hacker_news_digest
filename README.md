@@ -18,7 +18,7 @@ Navigate to the project folder in your terminal or command prompt and run the fo
 
 Copy code:
 - pip install -r requirements.txt
-- OR python3 install -r requirements.txt
+- OR pip3 install -r requirements.txt
 Update the config.py file with your Gmail address and password or app-specific password.
 
 
